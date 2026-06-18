@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env*
+
+# Cucumber generated reports
+tests/cucumber/reports/
+
+# k6 compiled output
+tests/load/dist/
+
+# Next.js
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.DS_Store
