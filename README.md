@@ -84,7 +84,7 @@ and keyboard navigation. The Gherkin layer serves as living documentation and a 
 English-language contract over the UI flows.
 
 ## Repo structure
-
+```
 tests/e2e/
 \*.spec.ts E2E specs (flows, access, billing, a11y, keyboard/focus/aria)
 pages/ Page Object Model — one class per screen
@@ -107,7 +107,7 @@ mocks/ Module-boundary mocks (AI SDK)
 globalSetup.ts / globalTeardown.ts
 vitest.config.ts playwright.config.ts jest.config.ts tsconfig.json package.json
 docker-compose.yml .github/workflows/test-full.yml
-
+```
 ## Running this
 
 This is a read-quality showcase, not a runnable project. The E2E and API tests were written
